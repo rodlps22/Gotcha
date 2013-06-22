@@ -1,0 +1,90 @@
+/* Large desktop */
+	body {
+		background-color:#26b2e2;
+		padding: 0px !important;
+	}
+
+	.footertxt {
+		background-image:url('../image/gotchaninjas404_13.png');
+		background-repeat:repeat-x;
+		height:180px;
+		margin-top:-32px;
+		position: fixed;
+        bottom: 0px;
+     	z-index:-1;
+	}
+
+	.footertxt p {
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+@media (min-width: 1200px) { 
+	.footertxt p {
+		margin-right:120px;
+		margin-top:42px;
+		font-size:12pt;
+
+	}
+	.bthome {
+		font-size:12px;
+		z-index:2;
+		color:#FFF;
+		text-align:center;
+		line-height:25px;
+		cursor:pointer;
+		float:right;
+		margin-right:121px;
+	}
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) { 
+	.footertxt p {
+		margin-right:45px;
+		margin-top:42px;
+		font-size:12pt;
+		
+	} 
+
+	.bthome {
+		font-size:12px;
+		z-index:2;
+		color:#FFF;
+		text-align:center;
+		line-height:25px;
+		cursor:pointer;
+		float:right;
+		margin-right:44px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	.footertxt p {
+		margin-right:20px;
+		padding-top:42px;
+		font-size:10pt;
+	} 
+	.bthome {
+		font-size:12px;
+		z-index:2;
+		color:#FFF;
+		text-align:center;
+		line-height:25px;
+		cursor:pointer;
+		float:right;
+		margin-right:20px;
+	}
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	
+ }
+
+.dv_sky { display: none; }
+#far-clouds { display: none; }
+#near-clouds { display: none; }
+.mybody { display: none; }

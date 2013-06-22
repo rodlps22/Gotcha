@@ -1,0 +1,137 @@
+.body { 
+
+	}
+
+.dv_full {
+	background: url(../image/bg.png) no-repeat center center ; 
+	width:100%;
+	height:526px;
+	position: relative;
+	z-index: 10;
+}
+
+.dv_sky {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	height: 427px;
+	background: #45add3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #45add3 0%, #abdfe4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45add3), color-stop(100%,#abdfe4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #45add3 0%,#abdfe4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #45add3 0%,#abdfe4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #45add3 0%,#abdfe4 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #45add3 0%,#abdfe4 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45add3', endColorstr='#abdfe4',GradientType=0 ); /* IE6-9 */
+}
+.dv_footer2 {
+       position:relative;
+       float:left;
+       width:1000px;
+       left:50%;
+       margin-left:-500px;
+       margin-top:-170px;
+}
+.dv_logo {
+	position:absolute;
+	float:left;
+	width:300px;
+	left:50%;
+	margin-top:60px;
+	margin-left:-470px;
+}
+.dv_menusensei {
+	position:absolute;
+	float:left;
+	width:180px;
+	height:134px;
+	left:50%;
+	margin-top:30px;
+	margin-left:-42px;
+	cursor:pointer;
+}
+
+.dv_menured {
+	position:absolute;
+	float:left;
+	width:180px;
+	height:134px;
+	left:50%;
+	margin-top:30px;
+	margin-left:140px;
+	cursor:pointer;
+}
+
+.dv_menupink {
+	position:absolute;
+	float:left;
+	width:180px;
+	height:134px;
+	left:50%;
+	margin-top:30px;
+	margin-left:320px;
+	cursor:pointer;
+}
+
+.dv_menupanel {
+	position:absolute;
+	float:left;
+	width:180px;
+	height:134px;
+	left:50%;
+	margin-top:260px;
+	margin-left:-72px;
+	cursor:pointer;
+}
+
+.dv_footer {
+	position:relative;
+	float:left;
+	width:100%;
+	height:150px;
+	background-color:#0b9545;
+}
+
+.dv_footer input {
+	/*margin-right:10px;*/
+	/*height:32px;*/
+}
+
+.dv_footer h1 {
+	color:#FFF;
+	font-size:30px;
+}
+
+.dv_footer p {
+	width:590px;
+	color:#FFF;
+	text-align: justify;
+}
+.engage {
+	position:relative;
+	float:left;
+	width:285px;
+	left:50%;
+	margin-left:-470px;
+	margin-top:10px;
+}
+
+.reward {
+	position:relative;
+	float:left;
+	width:285px;
+	left:50%;
+	margin-left:-140px;
+	margin-top:80px;
+}
+
+.motivate {
+	position:relative;
+	float:left;
+	width:285px;
+	left:50%;
+	margin-left:40px;
+	margin-top:20px;
+}
+

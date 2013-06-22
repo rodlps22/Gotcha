@@ -1,0 +1,37 @@
+	<div class="dv_footer">
+		<div class="dv_footer2">
+			<h1>Contact us</h1>
+			<p>
+				<form ng-submit="send(mail)">
+					<div class="controls controls-row">
+						<input class="span3" type="text" ng-model="mail.name" placeholder="Your name" required/>
+						<input class="span3" type="email" ng-model="mail.email" placeholder="Your email" required/>
+					</div>
+					<div class="controls controls-row">
+						<input class="span3" type="text" ng-model="mail.phone" placeholder="Phone" required/>
+						<input class="span3" type="text" ng-model="mail.subject" placeholder="Subject" required/>
+					</div>
+					<div class="controls controls-row">
+						<textarea class="span6" rows="3" ng-model="mail.message" placeholder="Message..." required></textarea>
+					</div>
+					<br />
+					<button type="submit" class="btn btn-info" style="width:150px;">SEND</button>
+				</form>
+			</p>
+		</div>
+	</div>
+
+<!-- 
+	<input class="span3" type="text" placeholder="Your Name">
+						<input class="span3" type="email" placeholder="Your Email" required>
+					</div>
+					<div>
+						<input class="span3" type="text" placeholder="Phone">
+						<input class="span3" type="text" placeholder="Subject">
+					</div>
+					<div>
+						
+					</div>
+					<div class="">
+						
+					</div> -->

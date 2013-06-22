@@ -1,0 +1,32 @@
+@font-face
+{
+	font-family: Gotham Rounded !important;
+	src: url('../font/gotham-rounded-medium.otfttf'),
+    	 url('../font/gotham-rounded-medium.otf'); /* IE9 */
+}
+body{
+    display: none;
+}
+.stage {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    min-width: 900px;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.far-clouds {
+    background: transparent url(../image/far-clouds.png) 305px 102px repeat-x;
+}
+.near-clouds {
+    background: transparent url(../image/near-clouds.png) 305px 162px repeat-x;
+}
+.dv_footer {
+    position: relative;
+    z-index: 11;
+}
+.mybody { 
+    margin-top: 50px;
+}

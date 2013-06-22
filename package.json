@@ -1,0 +1,13 @@
+{
+  "name": "katana-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "katana": "0.2.0",
+    "joose": "*",
+    "ejs": "*"
+  },
+  "katana": {
+    "modules": {}
+  }
+}

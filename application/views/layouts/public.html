@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+	<head>
+		<title><?-title?></title>
+		<!-- METAS 
+		======================================================================== -->
+			<!-- normal -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="">
+			<meta name="author" content="">
+		<!-- 
+		======================================================================== -->
+		<!-- STYLES
+		======================================================================== -->
+			<!-- Bootstrap -->
+			<link rel="stylesheet" type="text/css" href="/public/assets/angular/ui-bootstrap/assets/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="/public/assets/bootstrap/css/bootstrap.min.css" />
+			<link rel="stylesheet" type="text/css" href="/public/assets/angular/ui-bootstrap/assets/rainbow.css" />
+			<link rel="stylesheet" type="text/css" href="/public/assets/angular/ui-bootstrap/assets/select2.css") />
+			<!-- Jquery-UI -->
+			<link rel="stylesheet" type="text/css" href="/public/assets/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.custom.min.css" />
+			<link rel="stylesheet" type="text/css" href="/public/assets/jquery-ui/css/Aristo/Aristo.css" />
+			<link rel="stylesheet" type="text/css" href="/public/assets/css/normalize.css" />
+			<link rel="stylesheet" type="text/css" href="/public/assets/css/style.css" />
+			<link rel="stylesheet" type="text/css" href="/public/styles/main.css" />
+			<link rel="stylesheet" type="text/css" href="/public/assets/bootstrap/css/bootstrap-responsive.min.css" />
+			<link rel="stylesheet" type="text/css" href="/public/assets/angular/ui-bootstrap/assets/bootstrap-responsive.css" />
+		<!--
+		======================================================================== -->
+		<!-- JAVASCRIPTS ANGULAR JS 
+		======================================================================== -->
+			<!-- Angular Puro -->
+			<script type="text/javascript" src="/public/assets/angular/angular.min.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/angular-ui.min.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/angular-sanitize.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/angular-cookies.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/underscore-min.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-router/release/angular-ui-router.min.js"></script>
+			<!-- UI Uteis -->
+			<script type="text/javascript" src="/public/assets/js/modernizr.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/event/event.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/format/format.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/highlight/highlight.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/ie-shiv/ie-shiv.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/indeterminate/indeterminate.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/inflector/inflector.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/jq/jq.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/keypress/keypress.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/mask/mask.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/reset/reset.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/route/route.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/scrollfix/scrollfix.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/showhide/showhide.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/unique/unique.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/validate/validate.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-utils/utils.js"></script>
+			<!-- UI Bootstrap -->
+			<script type="text/javascript" src="/public/assets/angular/ui-bootstrap/ui-bootstrap-tpls-0.3.0.min.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-bootstrap/ui-bootstrap-tpls-0.1.0-SNAPSHOT.min.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-bootstrap/assets/ui-select2.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-bootstrap/assets/plunker.js"></script>
+			<script type="text/javascript" src="/public/assets/angular/ui-bootstrap/assets/rainbow.js"></script>
+		<!--
+		======================================================================== -->
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements
+		======================================================================== -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--
+		======================================================================== -->
+		<!-- ANGULAR APPLICATION 
+		======================================================================== -->
+			<script type="text/javascript" src="/public/app/routingConfig.js"></script>
+			<script type="text/javascript" src="/public/app/app.js"></script>
+			<script type="text/javascript" src="/public/app/services.js"></script>
+			<script type="text/javascript" src="/public/app/controllers.js"></script>
+			<script type="text/javascript" src="/public/app/filters.js"></script>
+			<script type="text/javascript" src="/public/app/directives.js"></script>
+		<!-- 
+		======================================================================== -->
+		<!-- Favicons
+		================================================== -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/ico/gotchaninjas-144-icon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/ico/gotchaninjas-114-icon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/ico/gotchaninjas-72-icon.png">
+		<link rel="apple-touch-icon-precomposed" href="/public/ico/gotchaninjas-57-icon.png">
+		<link rel="shortcut icon" href="/public/ico/favicon.png">
+	</head>
+	<body data-ng-controller="AppCtrl">
+		<?-content?>
+		
+		<!-- 
+		======================================================================== -->
+		<!-- JAVASCRIPTS  
+		======================================================================== -->
+		<!-- Jquery -->
+		<script type="text/javascript" src="/public/assets/jquery-ui/js/jquery-1.9.1.js"></script>
+		<!-- Jquery UI -->
+		<script type="text/javascript" src="/public/assets/js/jquery.spritely-0.6.js"></script>
+		<script type="text/javascript" src="/public/assets/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script type="text/javascript" src="/public/assets/angular/ui-bootstrap/assets/select2.js"></script>
+		<!-- effeitos da index -->
+		<script type="text/javascript" src="/public/assets/js/index.js"></script>
+		<script type="text/javascript">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-39969528-1', 'gotchaninjas.com');
+			ga('send', 'pageview');
+		</script>
+		<!-- 
+		======================================================================== -->
+	</body>
+</html>
